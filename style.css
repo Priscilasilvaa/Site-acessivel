@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+    transition: font-size 0.5s, font-weigth 0,5s;
+}
+
+
+/* tema padrao*/
+body.padrao {
+    background-color: #f0f0f5;
+    color: #000;
+
+}
+
+/* tema acessivel*/
+body.acess {
+    background-color: #f0f0f5;
+    color: #000;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+}
+/* botão de alternar tema */
+.top-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ffb120;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.cta{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #2088ff;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+img {
+    width: 300px;
+    height: auto;
+}
+
+.menu{
+    margin: 20px;
+}
